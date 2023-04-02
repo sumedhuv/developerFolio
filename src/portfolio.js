@@ -403,8 +403,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91 9820817092",
+  email_address: "sumedhuvichare@gmail.com"
 };
 
 // Twitter Section
