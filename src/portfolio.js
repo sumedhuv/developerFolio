@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/sumedhuv",
   linkedin: "https://www.linkedin.com/in/sumedh-vichare/",
-  gmail: "sumedhuvichare@gmail.com",
+  gmail: "work.sumedhv@gmail.com",
   gitlab: "",
   facebook: "https://www.facebook.com/sumedh.vichare.5",
   instagram: "https://www.instagram.com/sumeddhhhh/",
@@ -197,7 +197,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 
