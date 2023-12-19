@@ -38,7 +38,7 @@ const socialMediaLinks = {
   gmail: "sumedhuvichare@gmail.com",
   gitlab: "",
   facebook: "https://www.facebook.com/sumedh.vichare.5",
-  instagram:"https://www.instagram.com/sumeddhhhh/",
+  instagram: "https://www.instagram.com/sumeddhhhh/",
   medium: "https://medium.com/@sumedhuvichare",
   stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -50,15 +50,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY TECHIE WHO LOVES EXPLORING NEW FRAMEWORKS AND TECHNOLOGIES",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ High Level Designing for your web applications"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS "
-    )
+    emoji("⚡ Integration of third party services such as Firebase/ AWS ")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -119,6 +117,18 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "University Of Manchester",
+      logo: require("./assets/images/UoM.png"),
+      subHeader: "Master of Science in Advanced Computer Science",
+      duration: "September 2023 - September 2024",
+      desc: "Relevant Coursework: COMP60411 Modelling Data on the Web, COMP62421 Querying Data on the Web, COMP60711 Data Engineering, COMP60721 Systems Governance",
+      descBullets: [
+        "COMP60411 involved understanding core data models such as CSV, XML, JSON and RDF and use schema languages to better understand these models",
+        "COMP60721 outlined the importance of compliance and mitigating risks thorugh a group project for an IT system to minimise damage to the users and actors of the system."
+      ]
+    },
+
+    {
       schoolName: "DJ Sanghvi College of Engineering",
       logo: require("./assets/images/DJSCE.png"),
       subHeader: "Bachelor of Technology in Computer Engineering",
@@ -129,14 +139,6 @@ const educationInfo = {
         "Chairperson at the IoT Club of Department of Computer Engineering"
       ]
     }
-    // {
-    //   schoolName: "Stanford University",
-    //   logo: require("./assets/images/stanfordLogo.png"),
-    //   subHeader: "Bachelor of Science in Computer Science",
-    //   duration: "September 2013 - April 2017",
-    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    // }
   ]
 };
 
@@ -208,11 +210,12 @@ const bigProjects = {
     {
       image: require("./assets/images/Qgen.png"),
       projectName: "QGen",
-      projectDesc: "A novel approach for question generation using Natural Language Processing.",
+      projectDesc:
+        "A novel approach for question generation using Natural Language Processing.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://github.com/sumedhuv"
+          url: "https://github.com/sumedhuv/Qgen"
         }
         //  you can add extra buttons here.
       ]
@@ -220,18 +223,18 @@ const bigProjects = {
     {
       image: require("./assets/images/ImAud.png"),
       projectName: "ImAud",
-      projectDesc: "A steganography technique that uses an unaltered audio file to hide images converted into base64 text format.",
+      projectDesc:
+        "A steganography technique that uses an unaltered audio file to hide images converted into base64 text format.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://github.com/sumedhuv"
+          url: "https://github.com/sumedhuv/Audio-Steganography"
         }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 //research
 const Research = {
@@ -241,7 +244,8 @@ const Research = {
     {
       image: require("./assets/images/ipo.png"),
       projectName: "Online Examination Monitoring Device",
-      projectDesc: "A patented device that facilitates hassle free conduction and proctoring of exam attendees.",
+      projectDesc:
+        "A patented device that facilitates hassle free conduction and proctoring of exam attendees.",
       footerLink: [
         {
           name: "Published Link",
@@ -252,9 +256,15 @@ const Research = {
     },
     {
       image: require("./assets/images/ieee.png"),
-      projectName: "Intelligent Personal Secretariat for Effective Business Management",
-      projectDesc: "A voice assistant enabled business management software solution. Paper in IEEE proceedings.",
+      projectName:
+        "Intelligent Personal Secretariat for Effective Business Management",
+      projectDesc:
+        "A voice assistant enabled business management software solution. Paper in IEEE proceedings.",
       footerLink: [
+        {
+          name: "Published Link",
+          url: "https://ieeexplore.ieee.org/document/10180496"
+        },
         {
           name: "Conference Certificate",
           url: "https://drive.google.com/file/d/1ccs7ofR5lUPx0vf_4C4-Liyf1tegn0Ze/view?usp=share_link"
@@ -270,22 +280,44 @@ const Research = {
 
 const achievementSection = {
   title: emoji("Certifications 🏆 "),
-  subtitle:
-    "Certifications and courses that I have completed !",
+  subtitle: "Certifications and courses that I have completed !",
 
   achievementsCards: [
     {
-      title: "AI for Everyone",
+      title: "Modern Javascript",
+      subtitle: "Course by Udemy covering the fundamentals of Javscript.",
+      image: require("./assets/images/udemy.png"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/10_4-yux4w-B0vOL0AV8QoQhVRyyK-fIq/view?usp=share_link"
+        }
+      ]
+    },
+    {
+      title: "Mern Full Stack Course",
       subtitle:
-        "Course by Deeplearning.ai taught by Dr. Andrew Ng.",
+        "Full Stack development course on LearnCodeOnline tutored by Hitesh Choudhary.",
+      image: require("./assets/images/lco.png"),
+      imageAlt: "Google Assistant Action Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/10_4-yux4w-B0vOL0AV8QoQhVRyyK-fIq/view?usp=share_link"
+        }
+      ]
+    },
+    {
+      title: "AI for Everyone",
+      subtitle: "Course by Deeplearning.ai taught by Dr. Andrew Ng.",
       image: require("./assets/images/coursera.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/13_bkl9RgzAbBAjyHXosceo17lywjs8NS/view?usp=share_link"
-        },
-        
+        }
       ]
     },
     {
@@ -298,8 +330,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1pL8j_fFxNxb7FiBYz5r0_EgMKJGme6AS/view?usp=share_link"
-        },
-        
+        }
       ]
     },
     {
@@ -312,33 +343,9 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1FNJVnWJ82PKjphXZwN-5c_CI7B0eJR97/view?usp=share_link"
-        },
-        
-      ]
-    },
-    
-    {
-      title: "Modern Javascript",
-      subtitle: "Course by Udemy covering the fundamentals of Javscript.",
-      image: require("./assets/images/udemy.png"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/10_4-yux4w-B0vOL0AV8QoQhVRyyK-fIq/view?usp=share_link"}
-      ]
-    },
-    {
-      title: "Mern Full Stack Course",
-      subtitle:
-        "Full Stack development course on LearnCodeOnline tutored by Hitesh Choudhary.",
-      image: require("./assets/images/lco.png"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-           name: "Certification",
-          url: "https://drive.google.com/file/d/10_4-yux4w-B0vOL0AV8QoQhVRyyK-fIq/view?usp=share_link"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -354,8 +361,7 @@ const blogSection = {
     {
       url: "",
       title: "",
-      description:
-        ""
+      description: ""
     }
   ],
   display: true // Set false to hide this section, defaults to true
